@@ -1,0 +1,39 @@
+.page {
+  height: 100vh;
+  background: #E8DCC8;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.back {
+  background: none;
+  border: none;
+  font: 300 14px 'Work Sans', sans-serif;
+  color: #8B7355;
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 60px;
+  
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.content {
+  max-width: 600px;
+  
+  h1 {
+    font: 300 48px 'Work Sans', sans-serif;
+    color: #4A3627;
+    margin: 0 0 20px 0;
+  }
+  
+  p {
+    font: 300 18px 'Work Sans', sans-serif;
+    color: #4A3627;
+    line-height: 1.6;
+    margin: 0;
+  }
+}
+

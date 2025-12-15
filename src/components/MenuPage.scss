@@ -1,0 +1,26 @@
+.menu-page {
+  height: 100vh;
+  background: #E8DCC8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  font: 300 32px 'Work Sans', sans-serif;
+  color: #4A3627;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0.6;
+  }
+}
